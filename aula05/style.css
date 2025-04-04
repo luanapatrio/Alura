@@ -1,5 +1,5 @@
 body {
-    background: url("https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg") no-repeat center
+    background: url("../aula05/questions.png") no-repeat center
       center fixed;
     background-size: cover;
     font-family: "Gabarito", sans-serif;
@@ -17,7 +17,7 @@ body {
   /* Caixa principal do jogo */
   .conteudo-jogo {
     background: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 5px #ff1b7b;
+    box-shadow: 0 0 5px #f5e8ed;
     margin: 30px;
     padding: 20px;
     height: 50vh;
@@ -28,13 +28,14 @@ body {
   
   .conteudo-jogo:hover {
     background: rgba(0, 0, 0);
-    box-shadow: 0 0 5px #19caca;
+    box-shadow: 0 0 5px #e7f7f7;
   }
   
   /* Títulos e textos */
   h2,
   p {
-    color: pink;
+    color: rgb(0, 0, 0);
+    text-align: center;
   }
   
   /* Estrutura do questionário */
@@ -84,12 +85,12 @@ body {
     padding: 5px;
     border: none;
     cursor: pointer;
-    background: #ff1b7b;
+    background: #5d89db;
     color: white;
   }
   
   .botao-resposta:hover {
-    background: #19caca;
+    background: #87d3e0;
     font-weight: 600;
   }
   
